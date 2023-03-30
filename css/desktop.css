@@ -1,0 +1,104 @@
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1158px;
+	}
+	.header-logo {
+		margin-right: 76px;
+	}
+	.header-link-tel {
+		font-style: normal;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: var(--main-description-color);
+		transition: color var(--animation-duration) var(--timing-function);
+	}
+	.header-link-email {
+		font-style: normal;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: var(--main-description-color);
+		transition: color var(--animation-duration) var(--timing-function);
+	}
+	.hero {
+		padding-top: 188px;
+		padding-bottom: 188px;
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-br.jpg);
+	}
+	@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+		.hero {
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-br-2x.jpg);
+		}
+	}
+	.hero-subject {
+		font-size: 56px;
+		line-height: 1.07;
+		width: 496px;
+		margin-bottom: 48px;
+	}
+	.advantages {
+		padding: 120px 0;
+	}
+	.advantages-item-subtitle {
+		font-weight: 500;
+		font-size: 20px;
+		letter-spacing: 0.02em;
+	}
+	.advantages-item-description {
+		font-weight: 400;
+	}
+	.advantages-item {
+		flex-basis: calc((100% - 72px) / 4);
+	}
+	.advantages-icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 112px;
+		background: var(--background-color-2);
+		border-radius: 4px;
+		margin-bottom: 8px;
+	}
+	.doing {
+		display: block;
+	}
+	.team,
+	.customers {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.footer {
+		padding: 100px 0;
+	}
+	.footer-container {
+		width: 100%;
+		justify-content: center;
+		padding: 0 15px;
+	}
+	.social-media {
+		margin-left: 120px;
+	}
+	.footer-subscribe-form {
+		margin-left: 80px;
+	}
+	/* .logo-container {
+		display: block;
+	} */
+	/* .footer-subscribe-heading {
+		display: block;
+	} */
+	/* .footer-subscribe-input {
+		width: 264px;
+		height: 40px;
+		margin-right: 24px;
+	} */
+	/* .footer-subject {
+		display: block;
+	} */
+	/* .footer-subscribe-wrap {
+		flex-direction: row;
+		gap: 0;
+	} */
+}
