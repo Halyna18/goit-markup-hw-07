@@ -27,14 +27,14 @@
 		<header class="header">
 			<div class="container header-container">
 				<a href="./index.html" class="header-logo link"><span> Web</span>Studio</a>
-				<button type="button" class="header-btn-mob">
+				<button type="button" class="header-btn-mob js-open-menu">
 					<svg class="header-btn-icon" width="32" height="22">
 							<use href="./images/menu-hamburger.svg#icon-menu-hamburger"></use>
 						</svg>
 					</button>
-				</button>
-				<div class="header-nav-wrap">
-					<button type="button" class="header-btn-mob-2">
+				</button> 
+		 <div class="header-nav-wrap js-menu-container">
+					<button type="button" class="header-btn-mob-2 js-close-menu">
 						<svg class="header-btn-icon-2" width="8" height="8">
 							<use href="./images/close.svg#icon-close"></use>
 						</svg>
@@ -45,8 +45,8 @@
 							<li class="header-item"><a href="./portfolio.html" class="header-item-link link">Portfolio</a></li>
 							<li class="header-item"><a href="" class="header-item-link link">Contacts</a></li>
 						</ul>
-					</nav>
-					<div class="header-address-social">
+					</nav> 
+		<div class="header-address-social">
 					<address class="header-address">
 						<ul class="header-list-address list">
 							<li class="header-item">
@@ -77,8 +77,10 @@
 										><a href="" class="team-social-link link" target="_blank" rel="noopener nofollow noreferre">
 											<svg class="team-social-icon" width="20" height="20">
 												<use href="./images/social-icons.svg#icon-linkedin"></use></svg></a
-									></li> </ul>
-									</div>
+									></li> 
+								</ul>
+									
+						
 				</div>
 			</div>
 		</header>
@@ -515,6 +517,13 @@
 			</div>
 		</div>
 		<!-- /Data-modal -->
+		<script
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+			integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+			crossorigin="anonymous"
+		></script>
+		<script src="./js/mobile-menu.js"></script>
 		<script src="./js/modal.js"></script>
 	</body>
 </html>

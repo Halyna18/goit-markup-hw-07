@@ -17,4 +17,8 @@
 		width: 398px;
 		height: 40px;
 	}
+	.modal {
+		min-width: 392px;
+		min-height: 586px;
+	}
 }
