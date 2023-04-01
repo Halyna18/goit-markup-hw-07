@@ -2,12 +2,12 @@
 	.container {
 		max-width: 428px;
 	}
-	.header-link-tel {
+	/* .header-link-tel {
 		font-size: 36px;
 	}
 	.header-social-list {
 		gap: 56px;
-	}
+	} */
 	.hero-subject {
 		font-size: 36px;
 		line-height: 1.11;
