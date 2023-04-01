@@ -143,6 +143,21 @@
 	.control {
 		padding: 64px 0;
 	}
+	.control-list {
+		justify-content: center;
+		margin-bottom: 64px;
+	}
+	.portfolio-item {
+		margin-right: 24px;
+		margin-bottom: 72px;
+		width: 356px;
+	}
+	.portfolio-item:nth-child(2n) {
+		margin-right: 0;
+	}
+	.portfolio-item:nth-last-child(-n + 2) {
+		margin-bottom: 0;
+	}
 	.modal {
 		min-width: 408px;
 		min-height: 576px;
