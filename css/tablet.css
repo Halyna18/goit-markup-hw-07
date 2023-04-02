@@ -17,9 +17,13 @@
 		width: 100%;
 		height: 4px;
 		left: 0;
-		bottom: -3px;
+		bottom: -8px;
 		border-radius: 2px;
 		background-color: var(--hover-focus-color);
+	}
+
+	.header {
+		padding: 16px 0;
 	}
 	.header-container {
 		display: flex;
@@ -28,9 +32,14 @@
 		display: flex;
 		gap: 40px;
 	}
+	.header-address {
+		margin-left: auto;
+	}
 	.header-list-address {
+		display: flex;
 		flex-direction: column;
 		justify-content: end;
+		gap: 12px;
 	}
 	.header-item {
 		margin-bottom: 0;
@@ -117,9 +126,6 @@
 	}
 	.social-media {
 		margin-left: 24px;
-	}
-	.team-title {
-		text-shadow: none;
 	}
 
 	.logo-container {

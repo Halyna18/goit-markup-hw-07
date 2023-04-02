@@ -102,15 +102,13 @@ body {
 	display: flex;
 	align-items: center;
 }
-/* Mobile */
-.header-nav-wrap.is-open {
-	transform: translateX(0);
-}
-.header-nav-wrap {
+
+/* ---MOBILE MENU--- */
+.header-mobile-menu {
+	position: fixed;
 	flex-wrap: wrap;
 	height: 100vh;
 	width: 100%;
-	position: fixed;
 	right: 0;
 	top: 0;
 	padding-top: 24px;
@@ -122,6 +120,9 @@ body {
 	z-index: 999;
 	transform: translateX(100%);
 	overflow-y: scroll;
+}
+.header-mobile-menu.is-open {
+	transform: translateX(0);
 }
 
 .header-btn-mob {
@@ -148,23 +149,39 @@ body {
 	height: 24px;
 	padding: 0;
 	margin-left: auto;
+	margin-bottom: 32px;
 	border-radius: 50%;
 	border: var(--footer-text);
 }
 .header-btn-icon-2 {
 	fill: var(--background-color-1);
 }
+.header-list {
+	display: none;
+}
+.header-menu-list {
+}
+.header-list-address {
+	display: none;
+}
+.header-menu-list-address {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-top: auto;
+}
 .header-social-list {
 	display: flex;
 	justify-content: flex-start;
 	gap: 32px;
 }
+/* ---/MOBILE MENU--- */
+
 .header-address-social {
 	display: flex;
 	flex-direction: column;
-	margin-top: auto;
+	margin-top: 244px;
 }
-/* /Mobile */
+
 .header-navigation {
 	display: flex;
 	align-items: center;
@@ -183,10 +200,7 @@ body {
 }
 .header-list {
 }
-.header-list-address {
-	display: flex;
-	flex-direction: column-reverse;
-}
+
 .header-item {
 	margin-bottom: 40px;
 }
@@ -205,19 +219,7 @@ body {
 }
 .current {
 	color: var(--accent-color);
-	/* padding: 24px 0; */
 }
-/* .current::after {
-	content: "";
-	display: block;
-	position: absolute;
-	width: 100%;
-	height: 4px;
-	left: 0;
-	bottom: -3px;
-	border-radius: 2px;
-	background-color: var(--hover-focus-color);
-} */
 .header-address {
 }
 .header-link-tel {
@@ -313,13 +315,6 @@ body {
 }
 .advantages-icon {
 	display: none;
-	/* justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 112px;
-	background: var(--background-color-2);
-	border-radius: 4px;
-	margin-bottom: 8px; */
 }
 .advantages-list-icon {
 }
@@ -371,7 +366,6 @@ body {
 	color: var(--main-title-color);
 	margin-bottom: var(--margin-title);
 	text-align: center;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .team-list {
 	display: flex;

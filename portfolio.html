@@ -26,61 +26,80 @@
 	<body>
 		<header class="header">
 			<div class="container header-container">
-				<a href="./index.html" class="header-logo link"><span> Web</span>Studio</a>
+				<nav class="header-navigation">
+					<a href="./index.html" class="header-logo link"><span> Web</span>Studio</a>
+					<ul class="header-list list">
+						<li class="header-item"><a href="./index.html" class="header-item-link link">Studio</a></li>
+						<li class="header-item"><a href="./portfolio.html" class="header-item-link current link">Portfolio</a></li>
+						<li class="header-item"><a href="" class="header-item-link link">Contacts</a></li>
+					</ul>
+				</nav>
+
 				<button type="button" class="header-btn-mob js-open-menu">
 					<svg class="header-btn-icon" width="32" height="22">
 						<use href="./images/menu-hamburger.svg#icon-hamburger"></use>
 					</svg>
 				</button>
 
-				<!-- <div class="header-nav-wrap js-menu-container">
-					<button type="button" class="header-btn-mob-2 js-close-menu">
-						<svg class="header-btn-icon-2" width="8" height="8">
-							<use href="./images/close.svg#icon-close"></use>
-						</svg>
-					</button>
-					<nav class="header-navigation">
-						<ul class="header-list list">
-							<li class="header-item"><a href="" class="header-item-link current link">Studio</a></li>
-							<li class="header-item"><a href="./portfolio.html" class="header-item-link link">Portfolio</a></li>
-							<li class="header-item"><a href="" class="header-item-link link">Contacts</a></li>
+				<address class="header-address">
+					<ul class="header-list-address list">
+						<li class="header-item">
+							<a href="mailto:info@devstudio.com" class="header-link-email link">info@devstudio.com</a>
+						</li>
+						<li class="header-item">
+							<a href="tel:+110001111111" class="header-link-tel link">+11 (000) 111-11-11</a>
+						</li>
+					</ul>
+				</address>
+			</div>
+
+			<div class="header-mobile-menu js-menu-container">
+				<button type="button" class="header-btn-mob-2 js-close-menu">
+					<svg class="header-btn-icon-2" width="8" height="8">
+						<use href="./images/close.svg#icon-close"></use>
+					</svg>
+				</button>
+				<nav class="header-navigation">
+					<ul class="header-menu-list list">
+						<li class="header-item"><a href="" class="header-item-link current link">Studio</a></li>
+						<li class="header-item"><a href="./portfolio.html" class="header-item-link link">Portfolio</a></li>
+						<li class="header-item"><a href="" class="header-item-link link">Contacts</a></li>
+					</ul>
+				</nav>
+				<div class="header-address-social">
+					<address class="header-address">
+						<ul class="header-menu-list-address list">
+							<li class="header-item">
+								<a href="mailto:info@devstudio.com" class="header-link-email link">info@devstudio.com</a>
+							</li>
+							<li class="header-item">
+								<a href="tel:+110001111111" class="header-link-tel link">+11 (000) 111-11-11</a>
+							</li>
 						</ul>
-					</nav>
-					<div class="header-address-social">
-						<address class="header-address">
-							<ul class="header-list-address list">
-								<li class="header-item">
-									<a href="mailto:info@devstudio.com" class="header-link-email link">info@devstudio.com</a>
-								</li>
-								<li class="header-item">
-									<a href="tel:+110001111111" class="header-link-tel link">+11 (000) 111-11-11</a>
-								</li>
-							</ul>
-						</address>
-						<ul class="header-social-list list">
-							<li class="team-social-iteam"
-								><a href="" class="team-social-link link" target="_blank" rel="noopener nofollow noreferre">
-									<svg class="team-social-icon" width="20" height="20">
-										<use href="./images/social-icons.svg#icon-instagram"></use></svg></a
-							></li>
-							<li class="team-social-iteam"
-								><a href="" class="team-social-link link" target="_blank" rel="noopener nofollow noreferre">
-									<svg class="team-social-icon" width="20" height="20">
-										<use href="./images/social-icons.svg#icon-twitter"></use></svg></a
-							></li>
-							<li class="team-social-iteam"
-								><a href="" class="team-social-link link" target="_blank" rel="noopener nofollow noreferre">
-									<svg class="team-social-icon" width="20" height="20">
-										<use href="./images/social-icons.svg#icon-facebook"></use></svg></a
-							></li>
-							<li class="team-social-iteam"
-								><a href="" class="team-social-link link" target="_blank" rel="noopener nofollow noreferre">
-									<svg class="team-social-icon" width="20" height="20">
-										<use href="./images/social-icons.svg#icon-linkedin"></use></svg></a
-							></li>
-						</ul>
-					</div>
-				</div> -->
+					</address>
+				</div>
+				<ul class="header-social-list list">
+					<li class="team-social-iteam"
+						><a href="" class="team-social-link link" target="_blank" rel="noopener nofollow noreferre">
+							<svg class="team-social-icon" width="20" height="20">
+								<use href="./images/social-icons.svg#icon-instagram"></use></svg></a
+					></li>
+					<li class="team-social-iteam"
+						><a href="" class="team-social-link link" target="_blank" rel="noopener nofollow noreferre">
+							<svg class="team-social-icon" width="20" height="20">
+								<use href="./images/social-icons.svg#icon-twitter"></use></svg></a
+					></li>
+					<li class="team-social-iteam"
+						><a href="" class="team-social-link link" target="_blank" rel="noopener nofollow noreferre">
+							<svg class="team-social-icon" width="20" height="20">
+								<use href="./images/social-icons.svg#icon-facebook"></use></svg></a
+					></li>
+					<li class="team-social-iteam"
+						><a href="" class="team-social-link link" target="_blank" rel="noopener nofollow noreferre">
+							<svg class="team-social-icon" width="20" height="20">
+								<use href="./images/social-icons.svg#icon-linkedin"></use></svg></a
+					></li>
+				</ul>
 			</div>
 		</header>
 

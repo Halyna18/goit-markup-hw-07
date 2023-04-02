@@ -2,15 +2,24 @@
 	.container {
 		max-width: 1158px;
 	}
-
+	.header {
+		padding: 24px 0;
+	}
 	.header-logo {
 		margin-right: 76px;
+	}
+	.current::after {
+		bottom: -3px;
+	}
+	.header-list-address {
+		flex-direction: row;
 	}
 	.header-link-tel {
 		font-style: normal;
 		font-size: 16px;
 		line-height: 1.5;
 		letter-spacing: 0.02em;
+		margin-left: 40px;
 		color: var(--main-description-color);
 		transition: color var(--animation-duration) var(--timing-function);
 	}
@@ -95,6 +104,12 @@
 		margin-right: 24px;
 		margin-bottom: 48px;
 		width: 360px;
+	}
+	.portfolio-item:nth-child(2n) {
+		margin-right: 24px;
+	}
+	.portfolio-item:nth-last-child(-n + 2) {
+		margin-bottom: 48px;
 	}
 	.portfolio-item:nth-child(3n) {
 		margin-right: 0;
