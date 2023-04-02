@@ -54,6 +54,7 @@
 	}
 	.header-link-tel {
 		font-style: normal;
+		font-weight: 400;
 		font-size: 12px;
 		line-height: 1.17;
 		letter-spacing: 0.04em;
@@ -63,6 +64,7 @@
 	}
 	.header-link-email {
 		font-style: normal;
+		font-weight: 400;
 		font-size: 12px;
 		line-height: 1.17;
 		letter-spacing: 0.04em;
@@ -73,16 +75,10 @@
 	.header-link:is(:hover, :focus) {
 		color: var(--hover-focus-color);
 	}
-	.header-nav-wrap {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		background-color: transparent;
-		width: unset;
-		height: unset;
-		position: static;
-		padding: 0;
+	.header-navigation {
+		flex-direction: row;
 	}
+
 	.header-btn-mob {
 		display: none;
 	}

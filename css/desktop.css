@@ -13,13 +13,14 @@
 	}
 	.header-list-address {
 		flex-direction: row;
+		gap: 40px;
 	}
 	.header-link-tel {
 		font-style: normal;
 		font-size: 16px;
 		line-height: 1.5;
 		letter-spacing: 0.02em;
-		margin-left: 40px;
+
 		color: var(--main-description-color);
 		transition: color var(--animation-duration) var(--timing-function);
 	}
