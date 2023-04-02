@@ -101,6 +101,7 @@ body {
 .header-container {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 /* ---MOBILE MENU--- */
