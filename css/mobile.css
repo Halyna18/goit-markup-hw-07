@@ -21,4 +21,7 @@
 		min-width: 392px;
 		min-height: 586px;
 	}
+	.form-checkbox-label {
+		font-size: 12px;
+	}
 }
