@@ -139,7 +139,7 @@ body {
 	fill: var(--background-color-1);
 }
 .header-btn-mob-2 {
-	position: absolute;
+	display: flex;
 	position: absolute;
 	top: 30px;
 	right: 30px;
